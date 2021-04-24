@@ -48,8 +48,8 @@ class SettingsController extends ApiMutableModelControllerBase
         $result = array();
         if ($this->request->isGet()) {
             $mdlNebula = $this->getModel();
-            if (empty($mdlNebula->localconf->__toString())) {
-                $mdlNebula->localconf = '{}';
+            if (empty($mdlNebula->conf->__toString())) {
+                $mdlNebula->conf = '{}';
             }
             $result = array("nebula" => $mdlNebula->getNodes());
         }
