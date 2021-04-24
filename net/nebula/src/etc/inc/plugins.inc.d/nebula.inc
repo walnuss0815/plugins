@@ -33,6 +33,11 @@ function nebula_enabled()
     return isEnabled($mdlNebula);
 }
 
+function isEnabled($node)
+{
+    return $node->enabled->__toString() == "1";
+}
+
 function nebula_services()
 {
     $services = array();
