@@ -1,0 +1,14 @@
+<form>
+    <field>
+        <id>nebula.enabled</id>
+        <label>Enabled</label>
+        <type>checkbox</type>
+        <help>This will activate the Nebula service</help>
+    </field>
+    <field>
+        <id>nebula.conf</id>
+        <label>Nebula configuration</label>
+        <type>textbox</type>
+        <height>10</height>
+    </field>
+</form>

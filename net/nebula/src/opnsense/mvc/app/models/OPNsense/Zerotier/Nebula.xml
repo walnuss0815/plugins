@@ -1,0 +1,16 @@
+<model>
+    <mount>//OPNsense/nebula</mount>
+    <description>
+        Nebula - A scalable overlay networking tool with a focus on performance, simplicity and security
+    </description>
+    <version>1.3.0</version>
+    <items>
+        <enabled type="BooleanField">
+            <default>0</default>
+            <Required>Y</Required>
+        </enabled>
+        <conf type="TextField">
+            <Required>N</Required>
+        </conf>
+    </items>
+</model>
